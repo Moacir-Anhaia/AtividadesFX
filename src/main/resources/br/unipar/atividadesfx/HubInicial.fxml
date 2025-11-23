@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="494.0" style="-fx-background-color: #410a00;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.unipar.atividadesfx.HubController">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="48.0" layoutY="14.0" prefHeight="451.0" prefWidth="414.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="62.0" prefWidth="204.0" text="Atividades JavaFX">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.8257575613079648" endY="0.9280302994179003" startX="0.2386363573146589" startY="0.6931818615306508">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.9962962865829468" blue="0.9962962865829468" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.27000001072883606" green="0.723491370677948" blue="0.8999999761581421" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <VBox alignment="CENTER_LEFT" prefHeight="444.0" prefWidth="552.0" style="-fx-spacing: 18;">
+               <children>
+                  <HBox prefHeight="40.0" prefWidth="552.0">
+                     <children>
+                        <Label prefHeight="22.0" prefWidth="290.0" style="-fx-text-fill: fff;" text="Calculadora de Operações Básicas">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#btnCalculadora" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font></Button>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="33.0" prefWidth="552.0">
+                     <children>
+                        <Label prefHeight="22.0" prefWidth="290.0" style="-fx-text-fill: fff;" text="Conversor de Temperatura">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#btnConversor" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="35.0" prefWidth="552.0">
+                     <children>
+                        <Label prefHeight="22.0" prefWidth="290.0" style="-fx-text-fill: fff;" text="Cadastro de Pessoa + Análise">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#btnCadastro" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="45.0" prefWidth="552.0">
+                     <children>
+                        <Label prefHeight="22.0" prefWidth="290.0" style="-fx-text-fill: fff;" text="Média Escolar">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="btnMedia" mnemonicParsing="false" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="43.0" prefWidth="552.0">
+                     <children>
+                        <Label prefHeight="22.0" prefWidth="290.0" style="-fx-text-fill: fff;" text="Cadastro Simples">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="btnCadastroSimples" mnemonicParsing="false" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="38.0" prefWidth="552.0">
+                     <children>
+                        <Label prefHeight="22.0" prefWidth="290.0" style="-fx-text-fill: fff;" text="Montagem de Lanche">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="btnMontagem" mnemonicParsing="false" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="46.0" prefWidth="552.0">
+                     <children>
+                        <Label prefHeight="22.0" prefWidth="290.0" style="-fx-text-fill: fff;" text="Simulador de Semáforo com Timer">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="btnSimulador" mnemonicParsing="false" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="46.0" prefWidth="552.0">
+                     <children>
+                        <Label prefHeight="22.0" prefWidth="290.0" style="-fx-text-fill: fff;" text="Jogo de Adivinhação">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="btnJogo" mnemonicParsing="false" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="69.0" prefWidth="414.0">
+                     <children>
+                        <Label prefHeight="22.0" prefWidth="290.0" style="-fx-text-fill: fff;" text="Simulador de Conta de Luz">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="btmLuz" mnemonicParsing="false" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+       <ImageView fitHeight="114.0" fitWidth="132.0" layoutX="199.0" layoutY="465.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@imagens/Icon.png" />
+           </image>
+       </ImageView>
+   </children>
+</AnchorPane>

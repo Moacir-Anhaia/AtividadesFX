@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="553.0" style="-fx-background-color: #410a00;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.unipar.atividadesfx.CalculadoraController">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="107.0" layoutY="80.0" prefHeight="280.0" prefWidth="339.0">
+         <children>
+            <TextField fx:id="tfPrimeiroValor" promptText="Digite 1° Valor">
+               <VBox.margin>
+                  <Insets bottom="15.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="tfSegundoValor" promptText="Digite 2° Valor" />
+            <HBox alignment="CENTER" prefHeight="36.0" prefWidth="339.0" style="-fx-spacing: 8;">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#Soma" style="-fx-background-color: #fff;" text="+" />
+                  <Button mnemonicParsing="false" onAction="#Subtrair" style="-fx-background-color: #fff;" text="-" />
+                  <Button layoutX="62.0" layoutY="10.0" mnemonicParsing="false" onAction="#Multiplicar" style="-fx-background-color: #fff;" text="*" />
+                  <Button layoutX="114.0" layoutY="10.0" mnemonicParsing="false" onAction="#Dividir" style="-fx-background-color: #fff;" text="/" />
+               </children>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </HBox>
+            <Label fx:id="lblResultado" text="Resultado" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children></VBox>
+      <Label layoutX="235.0" layoutY="40.0" text="Calculadora" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="35.0" layoutY="14.0" mnemonicParsing="false" onAction="#Voltar" style="-fx-background-color: #fff; -fx-background-radius: 10;" text="Voltar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

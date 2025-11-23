@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #410a00;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.unipar.atividadesfx.CadastroPessoaController">
+   <children>
+      <Label layoutX="176.0" layoutY="22.0" text="Cadastro de Pessoa + Análise" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="50.0" layoutY="23.0" mnemonicParsing="false" onAction="#Voltar" style="-fx-background-color: #fff; -fx-background-radius: 10;" text="Voltar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <VBox layoutX="50.0" layoutY="89.0" prefHeight="158.0" prefWidth="226.0">
+         <children>
+            <TextField fx:id="txtNome" promptText="Informe o Nome">
+               <VBox.margin>
+                  <Insets bottom="15.0" />
+               </VBox.margin></TextField>
+            <TextField fx:id="txtIdade" promptText="Informe a Idade">
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin></TextField>
+            <HBox alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="226.0" style="-fx-spacing: 5;">
+               <children>
+                  <Label text="Sexo:" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <CheckBox fx:id="ckMasculino" mnemonicParsing="false" text="Maculino" textFill="WHITE" />
+                  <CheckBox fx:id="ckFeminino" layoutX="41.0" layoutY="10.0" mnemonicParsing="false" text="Feminino" textFill="WHITE" />
+               </children>
+            </HBox>
+            <Label text="Gosta de praticar esportes?" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="28.0" prefWidth="226.0" style="-fx-spacing: 8;">
+               <children>
+                  <CheckBox fx:id="ckSim" mnemonicParsing="false" text="Sim" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="ckNao" mnemonicParsing="false" text="Não" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </CheckBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Label fx:id="lblanalise" layoutX="403.0" layoutY="113.0" text="Análise" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="134.0" layoutY="247.0" mnemonicParsing="false" onAction="#Analisar" style="-fx-background-color: #fff; -fx-text-fill: #072400;" text="Analisar" />
+   </children>
+</AnchorPane>

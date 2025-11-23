@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #410a00;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.unipar.atividadesfx.ConversorTemperaturaController">
+   <children>
+      <Label layoutX="187.0" layoutY="30.0" text="Conversor de Temperatura" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtValor" layoutX="225.0" layoutY="72.0" promptText="Informe a temperatua" />
+      <Label layoutX="225.0" layoutY="132.0" text="Converte para" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="312.0" layoutY="128.0" mnemonicParsing="false" onAction="#ConveterC" text="C°" />
+      <Button layoutX="348.0" layoutY="128.0" mnemonicParsing="false" onAction="#ConveterF" text="F°" />
+      <Label layoutX="187.0" layoutY="214.0" text="A temperatura convertida:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblResultado" layoutX="346.0" layoutY="214.0" text="Resultado" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="50.0" layoutY="30.0" mnemonicParsing="false" onAction="#Voltar" style="-fx-background-color: #fff; -fx-background-radius: 10;" text="Voltar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
