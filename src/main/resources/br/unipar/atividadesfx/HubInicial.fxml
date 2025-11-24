@@ -81,7 +81,7 @@
                               <Font size="15.0" />
                            </font>
                         </Label>
-                        <Button fx:id="btnMedia" mnemonicParsing="false" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                        <Button mnemonicParsing="false" onAction="#btnMedia" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font>
@@ -95,7 +95,7 @@
                               <Font size="15.0" />
                            </font>
                         </Label>
-                        <Button fx:id="btnCadastroSimples" mnemonicParsing="false" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                        <Button mnemonicParsing="false" onAction="#btnCadastroSimples" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font>
@@ -109,7 +109,7 @@
                               <Font size="15.0" />
                            </font>
                         </Label>
-                        <Button fx:id="btnMontagem" mnemonicParsing="false" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                        <Button mnemonicParsing="false" onAction="#btnMontagem" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font>
@@ -123,7 +123,7 @@
                               <Font size="15.0" />
                            </font>
                         </Label>
-                        <Button fx:id="btnSimulador" mnemonicParsing="false" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                        <Button mnemonicParsing="false" onAction="#btnSimulador" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font>
@@ -137,7 +137,7 @@
                               <Font size="15.0" />
                            </font>
                         </Label>
-                        <Button fx:id="btnJogo" mnemonicParsing="false" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                        <Button mnemonicParsing="false" onAction="#btnJogo" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font>
@@ -151,7 +151,7 @@
                               <Font size="15.0" />
                            </font>
                         </Label>
-                        <Button fx:id="btmLuz" mnemonicParsing="false" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                        <Button mnemonicParsing="false" onAction="#btmLuz" style="-fx-background-color: fff; -fx-text-fill: #ff0000; -fx-background-radius: 8;" text="Abrir Atividade" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font>

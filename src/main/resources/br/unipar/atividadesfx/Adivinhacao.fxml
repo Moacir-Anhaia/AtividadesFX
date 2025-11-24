@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #410a00;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.unipar.atividadesfx.AdivinhacaoController">
+   <children>
+      <Button layoutX="25.0" layoutY="20.0" mnemonicParsing="false" onAction="#Voltar" style="-fx-background-color: #fff;" text="Voltar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="212.0" layoutY="32.0" text="Jogo de Adivinhação" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNumero" layoutX="225.0" layoutY="74.0" promptText="Digite um N° (1 a 10)" />
+      <Button layoutX="275.0" layoutY="114.0" mnemonicParsing="false" onAction="#Validar" style="-fx-background-color: #fff;" text="Validar" />
+      <Label fx:id="lblResultado" layoutX="271.0" layoutY="254.0" text="Resultado" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="243.0" layoutY="158.0" mnemonicParsing="false" onAction="#TentarNovamente" style="-fx-background-color: #fff;" text="Tentar Novamente" />
+   </children>
+</AnchorPane>

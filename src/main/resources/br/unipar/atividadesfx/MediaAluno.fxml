@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #410a00;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="br.unipar.atividadesfx.MediaAlunoController">
+   <children>
+      <Label layoutX="246.0" layoutY="14.0" text="Média Aluno" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <VBox layoutX="217.0" layoutY="54.0" prefHeight="200.0" prefWidth="166.0" style="-fx-spacing: 4;">
+         <children>
+            <Label style="-fx-line-spacing: 10;" text="Informe o Nome do Aluno:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtAluno" />
+            <Label layoutX="10.0" layoutY="10.0" text="1° Nota" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtNota1" layoutX="10.0" layoutY="28.0" />
+            <Label layoutX="10.0" layoutY="53.0" text="2° Nota" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtNota2" layoutX="10.0" layoutY="71.0" />
+            <Label layoutX="10.0" layoutY="96.0" text="3° Nota" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtNota3" layoutX="10.0" layoutY="114.0" />
+         </children>
+      </VBox>
+      <Button layoutX="271.0" layoutY="264.0" mnemonicParsing="false" onAction="#Calcular" style="-fx-background-color: #fff;" text="Calcular">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblResultado" layoutX="267.0" layoutY="312.0" text="Resultado" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="46.0" layoutY="29.0" mnemonicParsing="false" onAction="#Voltar" style="-fx-background-color: #fff;" text="Voltar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

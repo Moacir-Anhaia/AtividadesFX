@@ -18,7 +18,7 @@ public class HelloApplication extends Application {
                 HelloApplication.class.getResource("HubInicial.fxml")
         );
 
-        Scene scene = new Scene(root, 500, 500);
+        Scene scene = new Scene(root, 500, 600);
         stage.setTitle("Atividades FX");
         stage.setScene(scene);
         stage.show();
@@ -29,7 +29,7 @@ public class HelloApplication extends Application {
             Parent root = FXMLLoader.load(
                     HelloApplication.class.getResource(fxmlNome + ".fxml")
             );
-            Scene scene = new Scene(root, 500, 500);
+            Scene scene = new Scene(root, 600, 500);
             stage.setScene(scene);
         } catch (Exception e) {
             e.printStackTrace();

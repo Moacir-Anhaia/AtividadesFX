@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="490.0" style="-fx-background-color: #410a00;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.unipar.atividadesfx.MontagemLancheController">
+   <children>
+      <Label layoutX="142.0" layoutY="24.0" text="Montagem de Lanche" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cbPao" layoutX="57.0" layoutY="93.0" prefHeight="26.0" prefWidth="115.0" />
+      <Label layoutX="57.0" layoutY="65.0" text="Tipo de pão" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="rbBovino" layoutX="212.0" layoutY="97.0" mnemonicParsing="false" text="Bovina" textFill="WHITE" />
+      <Label layoutX="212.0" layoutY="65.0" text="Tipo de carne" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="rbFrango" layoutX="212.0" layoutY="126.0" mnemonicParsing="false" text="Frango" textFill="WHITE" />
+      <RadioButton fx:id="rbSoja" layoutX="212.0" layoutY="157.0" mnemonicParsing="false" text="Soja" textFill="WHITE" />
+      <CheckBox fx:id="ckQueijo" layoutX="355.0" layoutY="97.0" mnemonicParsing="false" text="Queijo" textFill="WHITE" />
+      <Label layoutX="353.0" layoutY="65.0" text="Adicionais" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="ckBacon" layoutX="354.0" layoutY="124.0" mnemonicParsing="false" text="bacon" textFill="WHITE" />
+      <CheckBox fx:id="ckSalada" layoutX="354.0" layoutY="151.0" mnemonicParsing="false" text="Salada" textFill="WHITE" />
+      <CheckBox fx:id="ckMolho" layoutX="354.0" layoutY="179.0" mnemonicParsing="false" text="molho" textFill="WHITE" />
+      <Label layoutX="57.0" layoutY="142.0" text="Nome Cliente" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNome" layoutX="59.0" layoutY="162.0" prefHeight="0.0" prefWidth="142.0" />
+      <Button layoutX="59.0" layoutY="223.0" mnemonicParsing="false" onAction="#Gerar" style="-fx-background-color: #fff;" text="Gerar Pedido">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblPedido" layoutX="59.0" layoutY="290.0" text="Pedido" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="20.0" layoutY="14.0" mnemonicParsing="false" onAction="#Voltar" style="-fx-background-color: #fff;" text="Voltar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

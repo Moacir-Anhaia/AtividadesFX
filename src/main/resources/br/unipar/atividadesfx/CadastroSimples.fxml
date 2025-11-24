@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #410a00;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.unipar.atividadesfx.CadastroSimplesController">
+
+    <children>
+        <Label layoutX="227.0" layoutY="14.0" text="Cadastro Simples" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+
+        <TextField fx:id="txtNome" layoutX="20.0" layoutY="50.0" prefHeight="26.0" prefWidth="184.0" promptText="Nome" />
+
+        <TextField fx:id="txtIdade" layoutX="227.0" layoutY="50.0" prefHeight="26.0" prefWidth="55.0" promptText="Idade" />
+
+        <ComboBox fx:id="cbxCurso" layoutX="300.0" layoutY="50.0" prefHeight="26.0" prefWidth="123.0" promptText="Curso" />
+
+        <Button layoutX="452.0" layoutY="51.0" mnemonicParsing="false" onAction="#Adicionar" text="Adicionar" />
+
+        <!-- Opcional: botão Excluir selecionado -->
+        <Button layoutX="452.0" layoutY="90.0" mnemonicParsing="false" onAction="#Excluir" text="Excluir" />
+
+        <TableView fx:id="tbAluno" layoutX="16.0" layoutY="145.0" prefHeight="200.0" prefWidth="560.0">
+            <columns>
+                <TableColumn fx:id="tbNome" prefWidth="255.0000114440918" text="Nome" />
+                <TableColumn fx:id="tbIdade" prefWidth="81.60003662109375" text="Idade" />
+                <TableColumn fx:id="tbCurso" prefWidth="224.0" text="Curso" />
+            </columns>
+        </TableView>
+      <Button layoutX="20.0" layoutY="14.0" mnemonicParsing="false" onAction="#Voltar" style="-fx-background-color: #fff;" text="Voltar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
