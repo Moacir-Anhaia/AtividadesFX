@@ -37,7 +37,9 @@ O projeto possui um **Hub inicial** que permite acessar cada atividade por meio 
 3.   Rode a classe:
        br.unipar.atividadesfx.Launcher
 
-📂 Estrutura de Pastas
+## 📂 Estrutura de Pastas AtividadesFX
+
+```text
 AtividadesFX/
 ├─ .git/
 ├─ .gitignore
@@ -82,9 +84,9 @@ AtividadesFX/
 │                 ├─ Semafaro.fxml
 │                 └─ imagens/
 │                    └─ Icon.png
-└─ target/
-   └─ (arquivos gerados pelo Maven/compilação – .class, etc.)
+└─ target/   (arquivos gerados pelo Maven/compilação – .class, etc.)
 
+```
 👨‍🎓 Autor
 
 Nome: Moacir Samoel Anhaia
