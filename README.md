@@ -31,7 +31,7 @@ O projeto possui um **Hub inicial** que permite acessar cada atividade por meio 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/AtividadesFX.git
+   git clone https://github.com/Moacir-Anhaia/AtividadesFX.git
 
 2.   Importe o projeto na sua IDE.
 3.   Rode a classe:
